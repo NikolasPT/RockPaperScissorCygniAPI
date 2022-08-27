@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Controllers.Tests", "test\RockPaperScissorCygniAPI.Controllers.Tests\RockPaperScissorCygniAPI.Controllers.Tests.csproj", "{1B94F385-8595-4B6A-85F4-AE32667C2F8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.DataRepository.Tests", "test\RockPaperScissorCygniAPI.DataRepository.Tests\RockPaperScissorCygniAPI.DataRepository.Tests.csproj", "{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Model.Tests", "test\RockPaperScissorCygniAPI.Model.Tests\RockPaperScissorCygniAPI.Model.Tests.csproj", "{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Services.Tests", "test\RockPaperScissorCygniAPI.Services.Tests\RockPaperScissorCygniAPI.Services.Tests.csproj", "{396F10B2-CA78-4C18-B94C-0F6CD7CA476A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.UnitTests.Utilities", "test\RockPaperScissorCygniAPI.UnitTestsUtilities\RockPaperScissorCygniAPI.UnitTests.Utilities.csproj", "{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Controllers", "src\RockPaperScissorCygniAPI.Controllers\RockPaperScissorCygniAPI.Controllers.csproj", "{6360D144-4766-435F-9670-A0F1D866E15A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.DataRepository", "src\RockPaperScissorCygniAPI.DataRepository\RockPaperScissorCygniAPI.DataRepository.csproj", "{E55C6806-1BB4-4A53-86B4-6CA5140658CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Model", "src\RockPaperScissorCygniAPI.Model\RockPaperScissorCygniAPI.Model.csproj", "{F7DE7E70-A473-4C48-8240-A217E463C835}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissorCygniAPI.Services", "src\RockPaperScissorCygniAPI.Services\RockPaperScissorCygniAPI.Services.csproj", "{A52939B7-3F53-4012-9C7F-754D24EB0D07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B94F385-8595-4B6A-85F4-AE32667C2F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B94F385-8595-4B6A-85F4-AE32667C2F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B94F385-8595-4B6A-85F4-AE32667C2F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B94F385-8595-4B6A-85F4-AE32667C2F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396F10B2-CA78-4C18-B94C-0F6CD7CA476A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396F10B2-CA78-4C18-B94C-0F6CD7CA476A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396F10B2-CA78-4C18-B94C-0F6CD7CA476A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396F10B2-CA78-4C18-B94C-0F6CD7CA476A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6360D144-4766-435F-9670-A0F1D866E15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6360D144-4766-435F-9670-A0F1D866E15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6360D144-4766-435F-9670-A0F1D866E15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6360D144-4766-435F-9670-A0F1D866E15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55C6806-1BB4-4A53-86B4-6CA5140658CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55C6806-1BB4-4A53-86B4-6CA5140658CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55C6806-1BB4-4A53-86B4-6CA5140658CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55C6806-1BB4-4A53-86B4-6CA5140658CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DE7E70-A473-4C48-8240-A217E463C835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DE7E70-A473-4C48-8240-A217E463C835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DE7E70-A473-4C48-8240-A217E463C835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DE7E70-A473-4C48-8240-A217E463C835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52939B7-3F53-4012-9C7F-754D24EB0D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52939B7-3F53-4012-9C7F-754D24EB0D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52939B7-3F53-4012-9C7F-754D24EB0D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52939B7-3F53-4012-9C7F-754D24EB0D07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B94F385-8595-4B6A-85F4-AE32667C2F8D} = {97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}
+		{A2D8342F-BEA9-4D7B-BA64-4DB13573E1AB} = {97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}
+		{9117B5D8-0A6B-4871-AFB6-D5EC0EA93011} = {97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}
+		{396F10B2-CA78-4C18-B94C-0F6CD7CA476A} = {97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}
+		{F6B4B6B8-7643-4647-871B-5FDD1DFDDBA3} = {97BBA98E-5A2B-4177-A2F4-8BD86D2C8943}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63996A8E-4848-4902-9244-579956D3283E}
+	EndGlobalSection
+EndGlobal
